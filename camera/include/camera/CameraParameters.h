@@ -111,6 +111,11 @@ public:
     // Returns true if no keys are present
     bool isEmpty() const;
 
+    static const char KEY_SUPPORTED_ISO_MODES[];
+    static const char KEY_LGE_ISO_MODE[];
+    static const char KEY_ISO_MODE[];
+    static const char KEY_LGE_CAMERA[];
+
     // Parameter keys to communicate between camera application and driver.
     // The access (read/write, read only, or write only) is viewed from the
     // perspective of applications, not driver.
